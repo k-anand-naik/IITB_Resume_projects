@@ -1,0 +1,89 @@
+*{
+    padding: 0; 
+    margin: 0; 
+    box-sizing: border-box; 
+    font-family: 'Red Hat Display', sans-serif;
+}
+/* 
+body{
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: var(--pale-blue);
+    /* font-family: "Red hat Display", sans-serif; */
+    /* font-size: 16px; */
+/* } */ 
+
+section{
+    width: 50; 
+    height: 100vh; 
+    display: flex; 
+    justify-content: center; 
+    flex-direction: column; 
+    align-items: center; 
+    background-image: url(./image/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+section h1{ 
+    text-shadow: 0px 0px 0px #f4f5f8; 
+    word-spacing: 10px; 
+    margin-bottom: 15px; 
+    font-size:2.5rem; 
+    text-transform: uppercase; 
+    letter-spacing: 0px; 
+    color: rgb(28, 6, 6);
+}
+.centerDiv{ 
+    width: 60%; 
+    height: 450px; 
+    box-shadow:0px 0px 0px 0px white;  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center; 
+    justify-content: center; 
+    background: #5165a4; 
+    border-radius: 12px;
+    color: rgb(22, 7, 7);
+}
+
+.details{ 
+    text-align: center; 
+    text-transform: uppercase; 
+}
+
+.details label{
+    font-size: 1.4rem;
+}
+.details input { 
+    padding: 10px; 
+    background-color: #e7dedf; 
+    color: rgb(7, 2, 2); 
+    border-radius: 12px;
+    text-align: center;
+}
+.details input[type=text]:focus {
+    border: 5px solid #555;
+}
+
+.imgdiv {
+    margin: 30px 0;
+}
+
+button {
+    background: #3498db;
+    width: 180px;
+    padding: 4px 0;
+    border-radius: 3px;
+    color:white;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    border-radius: 12px;
+    background-color: darken(#f1c40f, 20%);
+}
+
+
+button:hover {
+  cursor: pointer;
+}
